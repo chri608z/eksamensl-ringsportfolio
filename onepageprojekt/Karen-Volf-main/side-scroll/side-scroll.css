@@ -1,0 +1,81 @@
+body{
+    margin: 0;
+}
+
+img{
+    height: 450px;
+    margin: 30px;
+}
+header{
+    height: 200px;
+    font-size: 500%;
+    text-align: center;
+    padding-top: 40px;
+}
+.box{
+    height: 300px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+}
+.box::-webkit-scrollbar{
+    display: none;
+}
+
+.card-a{
+    display: inline-block;
+    height: 100%;
+    width: 400px;
+}
+.card-b{
+    display: inline-block;
+    height: 100%;
+    width: 400px;
+    
+}
+.card-c{
+    display: inline-block;
+    height: 100%;
+    width: 400px;
+}
+    
+.card-d{
+    display: inline-block;
+    height: 100%;
+    width: 400px;
+    
+}
+.card-e{
+    display: inline-block;
+    height: 100%;
+    width: 400px;
+}
+.card-f{
+    display: inline-block;
+    height: 100%;
+    width: 400px;
+}
+.card-g{
+    display: inline-block;
+    height: 100%;
+    width: 400px;
+}
+
+.card-h{
+    display: inline-block;
+    height: 100%;
+    width: 400px;
+}
+
+.card-i{
+    display: inline-block;
+    height: 100%;
+    width: 400px;
+}
+
+.card-j{
+    display: inline-block;
+    height: 100%;
+    width: 400px;
+}
+

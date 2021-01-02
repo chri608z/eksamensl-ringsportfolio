@@ -1,0 +1,196 @@
+body{
+    background-color:black;
+}
+
+h1{
+    font-family: inherit;
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+    border:2px solid darkred;
+    border-radius: 20px;
+    margin:30px;
+    padding-top: 15px;
+    padding: 10px;
+    text-align: center;
+    background-color:crimson;
+    font-size: 30px;
+    text-align: center;
+    font-family: italic;
+}
+
+h2{
+    font-family: inherit;
+    color: crimson;
+    text-align: left;
+    font-size: 20px;
+    text-align: center;
+    
+}
+
+h3{
+    font-family: inherit;
+    color: crimson;
+    text-align: left;
+    font-size: 18px;
+    text-align: center;
+}
+
+}
+p{
+    font-size: 15px;
+    font-family: serif;
+    text-align:left;
+    text-align: center;
+    padding-left: 10px;
+  
+}
+
+#tekstermedskygge div {
+    font-size: 20px;
+    font-family: sans-serif;
+    text-align: center;
+    padding: 20px
+}
+
+#tekstbeskr{
+    font-size: 16px;
+    font-family: sans-serif;
+    color: black;
+    font-family:sans-serif;
+}
+#skyggebeskr {
+    font-size: 16px;
+    font-family: sans-serif;
+    color: black;
+}
+
+#kasse1 {
+    background-color:crimson;
+    color: black;
+    grid-area: ga1;
+}
+
+#kasse2 {
+    background-color: crimson;
+    color: black;
+    grid-area: ga2;
+}
+
+#kasse3 {
+    background-color:crimson;
+    color: black;
+    grid-area: ga3;
+}
+
+#kasse4 {
+    background-color:crimson;
+    color: black;
+    grid-area: ga4;
+}
+
+#kasse5 {
+    background-color:crimson;
+    color: black;
+    grid-area: ga5;
+}
+
+#kasse6 {
+    background-color: crimson;
+    color: #aaaaaa;
+    grid-area: ga6;
+}
+
+#kasse7 {
+    background-color: crimson;
+    color: #aaaaaa;
+    grid-area: ga7;
+}
+
+#kasse8 {
+    background-color: crimson;
+    color: #aaaaaa;
+    grid-area: ga8;
+}
+
+#kasse9 {
+    background-color: crimson;
+    color: #aaaaaa;
+    grid-area: ga9;
+}
+
+#knap {
+    color: black;
+    font-size: 10px;
+}
+
+
+#tekstermedskygge {
+    display: grid;
+    grid-gap: 15px;
+    grid-template-areas: 
+        "ga1"
+        "ga2"
+        "ga3"
+        "ga4"
+        "ga5"
+        "ga6"
+        "ga7"
+        "ga8"
+        "ga9";
+}
+
+#logo{
+    width: 95%;
+    
+}
+
+.navbar-collapse{
+    background-color: black;
+}
+
+.dropdown-menu a {
+    color: crimson;
+}
+
+.dropdown-text-white {
+    color: white;
+}
+
+.navbar-toggler .line{
+    width: 30px;
+    height: 3px;
+    border-radius: 3px;
+    display: block;
+    margin-top: 5px;
+    background-color: #fff;
+} /* Dette er for at lave nye linjer som kan laves helt hvide */
+
+.navbar button {
+    border: none;
+} /* Dette er for at den grå border omkring burgermenuen ikke er der */
+
+.navbar button {
+      border: none;
+      outline: none;
+    } /* Dette er for at fjerne den border/outline som kommer frem når man trykker på burger menuen */
+
+@media screen and (min-width: 800px){
+#tekstermedskygge {
+    display: grid;
+    grid-gap: 15px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: 
+        "ga1 ga2 ga3"
+        "ga4 ga5 ga6"
+        "ga7 ga8 ga9";
+}
+}
+
+footer{
+    background-color: #dd2828;
+    clear: both;
+    text-align: center;
+    width: 100%;
+}
+

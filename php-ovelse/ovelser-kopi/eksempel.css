@@ -1,0 +1,60 @@
+/* Eksempel på styling af menu med float */
+/* Det er meget almindeligt, selvom det kan laves på andre måder */
+
+
+
+body { /* først lidt generelt */
+    background-color: #FFCC00; /* baggrundsfarve */
+    font-family:sans-serif; /* skrift for hele siden */
+    margin: 0; /* ingen margen */
+    padding: 0; /* ingen padding */
+}
+
+header {
+    background-color: #fff; /* hovedet skal være en anden farve */
+    margin: 0.5em 0px; /* første er top og bund, anden er sider */
+    text-align: center;
+}
+
+#headertekst {
+    font-size: 4em;
+}
+
+h1 {
+    text-align: center;
+}
+
+.storttal {
+    font-size: 10em;
+    display: block;
+}
+
+/* så kommer vi til styling af menuen */
+
+ul {
+    list-style-type: none; /* vi fjerner symboler for hvert punkt */
+    margin: 0;
+    padding: 0;
+    overflow: hidden; /* så evt. længere tekst ikke ryger ud af boksen */
+    background-color: #000; 
+}
+
+li {
+    float: left; /* hvert element skal flyde til venstre */
+    text-align: center;
+    
+}
+
+li a {
+    display: block; /* elementet skal opføre sig som en blok */
+    width: 8em; /* bredde */
+    color: #fff;
+    padding: 0.5em 0.1em; /* forskellig padding på vandrette og lodrette flader */
+    text-decoration: none; /* væk med understregning */
+}
+
+li a:hover { /* og lidt anderledes styling når man hover */
+    background-color: #ccc;
+    color: #000;
+}
+

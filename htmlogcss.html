@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="da">
+    <head>
+        <meta charset="utf-8">
+        <title>Læringsportfolio</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+        <link href="style.css" rel="stylesheet"> 
+    </head>
+    <body>
+
+         
+        <div id="felt1">
+            <h1>HTML og CSS</h1>
+        </div>
+        
+        <section id="menu">
+            <nav class="navbar navbar-expand-lg navbar-dark"><!-- bootstrap menu start -->
+            <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <label class="line"></label>
+            <label class="line"></label>
+            <label class="line"></label>
+        </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+        </li>
+        <li class="nav-item dropdown">
+            <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        
+          <div class="dropdown-text-white">Webudvikling</div>
+            </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="htmlogcss.html">HTML og CSS</a>
+            <a class="dropdown-item" href="resoggrid.html">Resposive og css grid</a>
+            <a class="dropdown-item" href="onepa.html">Onepage</a>
+        <a class="dropdown-item" href="se-ver-in.html">Server, version og internet</a>
+        </div>
+      </li>
+        <li class="nav-item dropdown">
+            <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <div class="dropdown-text-white">Kommunikation</div>
+            </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="grundlaeg.html">Grundlæggende kommunikation</a>
+            <a class="dropdown-item" href="kvalogkvanogpr%C3%A6s.html">Kvalitativ, kvantitativ og præsentation</a>
+            <a class="dropdown-item" href="brogtektoginfo.html">Brugertest,tektprodukt og info</a>
+        </div>
+      </li>
+        <li class="nav-item dropdown">
+            <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <div class="dropdown-text-white">Design</div>
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="illuogpho.html">Illustrator og Photoshop</a>
+            <a class="dropdown-item" href="farvogtypo.html">farve og typografi</a>
+            <a class="dropdown-item" href="gestogpeer.html">Gestaltlovene og peer-to-peer</a>
+            <a class="dropdown-item" href="desthin.html">Designthinking</a>
+            <a class="dropdown-item" href="foto.html">Fotografi</a>
+        </div>
+      </li>
+        
+    </ul>
+  </div>
+    </nav><!-- bootstrap menu slut -->
+        
+    </section>
+        
+        
+        <div id="tekstermedskygge">
+            
+            <div id="kasse1">
+                <p id="tekstbeskr">HTML</p><!-- html tekst start -->
+                <p id="tekstbeskr">Dette er om elementer (tags).</p>
+                <p id="tekstbeskr">Overskrifter (Headings) - Angivis med h2, h2, h3 osv.
+                - Et lukket tag er det tag fx når man laver en ny linje i HTML. Disse tags angiver vigtigheden af overskriften (de hierarkiske niveauer), og dermed har en betydnig (semantisk)</p>
+                <p id="tekstbeskr">De samantiske tags</p>
+                <p id="tekstbeskr">De er med til at fortælle om indholdet på ens website. Disse semantiske tag kan læses/anvendes af både mennesker og maskiner, derfor bliver de semantiske tags mere og mere vigtig for systemerne. Desuden giver disse søgemaskiner giver bedre resultater (SEO)</p>
+              
+            </div>
+                        
+            <div id="kasse2">
+                <p id="tekstbeskr">Flere semantiske tags</p>
+                <p id="tekstbeskr">Header svare til et sidehoved, derfor kan der være flere headers på en side og har typisk hver sin sektion. Sektionen indeholder typisk sidens header, men også navigationen som ligger mellem nav start og nav slut. Selvfølgelig har header også et slut tag. Desuden så skal der ikke forveksles med start head og slut head, som indeholder meta-info og er usynlig.</p>
+                <p id="tekstbeskr">Footer</p>
+                <p id="tekstbeskr">Den minder meget om header, men dette er hvor man fx skriver fx ens navn og hvad fx siden skal bruges til. Altså typiskset indeholder den information for sidefod, fx copyright og meget mere.</p>
+                <p id="tekstbeskr">Sektioner</p>
+                <p id="tekstbeskr">Sektioner(section) bliver angivet med et start og slut tag. Denne semantiske tag er med til at fortælle alt det der er i mellem hører sammen. Dermed har en betydning (semantisk). Article og aside minder meget om section.</p><!-- html tekst slut -->
+            </div>
+                        
+            <div id="kasse3">
+                <img src="images/html-css.jpg" width="100%">
+        
+            </div>
+                        
+            <div id="kasse4">
+               <p id="tekstbeskr">CSS</p><!-- css tekst start -->
+                <p id="tekstbeskr">CSS er en forkortelsw for Cascading Style Sheets, dette er et sprog der er med til at beskrive udseende på ens website, CSS gør det også muligt at adskille struktur og udseende fra hinanden. Disse styles bliver angivet som rules og som bliver navngivet og refereret i HTML filen, desuden så henviser cascading til disse regler for hvornår og hvilke styles gælder. Man skriver i det udvalgte dokument som er et link i HTML filen dermed kan man skrive i CSS og se at websitet bliver stylet efter ens eget valg, dette er med til at gøre at udseendet bliver overskuelig at se på.</p>
+                <p id="tekstbeskr">Selectors (de tre primære selektorer).</p>
+                <p id="tekstbeskr">Den første er id selector, dette er når et helt specifikt element der skal styles, fx det kan være tags som er markeret med et bestemt id, det kan være til et billede, her angiver man så et id, derefter vælger man id'et i stylesheet og skriver fx hashtag # (#logo (...)).</p>
+               
+            </div>
+                        
+            <div id="kasse5">
+              <img src="images/css.jpg" width="100%">
+            </div>
+                        
+            <div id="kasse6">
+                <p id="tekstbeskr">Farver og skriftyper i CSS.</p>
+                <p id="tekstbeskr">Når man skal bruge farver på ens side, så findes der nogle forskellige, fx RGB her skriver man fx (255, 204 0), det er en kode man skriver i HTML. Der er også HEX-kode dette er man skriver hashtag i Css, her angiver man så tal og bogstaver, det er med til at angive hvilken farve ens kommer til at se ud. Udover at skrive hashtag, så kan man også angive en farve ved at skrive navnet, en tredje måde at skrive en farve på, der kan man bruge noget der hedder HSL, dette er hvor man skriver det i procent.</p><!-- css tekst slut -->
+            </div>
+            
+             <div id="kasse7">
+                <p id="tekstbeskr">Forskellen på HTML og CSS</p>
+                
+            </div>  
+            
+           <div id="kasse8">
+               <p id="tekstbeskr">Hvad er PHP</p>
+            </div>
+                        
+            <div id="kasse9">
+                <p id="tekstbeskr">HTML og CSS Workshop</p>
+                <p id="tekstbeskr">Her er lidt om hvad man fx laver til et workshop i HTML og CSS</p>
+                <p id="tekstbeskr">Dette er et link til et eksempel på hvad man kan lave i et workshop.<a href="skygger-og-rammer/rammer.html">Skygger og rammer</a></p>
+            </div>
+         </div>
+        <footer>
+            <p>&copy; Christines læringsportfolio 2021</p>
+        </footer>
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    </body>
+</html>

@@ -1,0 +1,158 @@
+body {
+    background-color: whitesmoke;
+    margin: 30px;
+}
+h1 {
+    font-family: inherit;
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+    border:2px solid darkred;
+    border-radius: 20px;
+    margin:30px;
+    padding: 10px;
+    text-align: center;
+    background-color: crimson;    
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: center;
+}
+
+li a {
+    display: block;
+    color:crimson;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111111;
+}
+
+
+
+
+#tekstermedskygge div {
+    font-size: 80px;
+    font-family: sans-serif;
+    text-align: center;
+    padding: 20px
+}
+#skyggebeskr {
+    font-size: 16px;
+    font-family: sans-serif;
+    color: black;
+}
+
+
+#kasse1 {
+    background-color: #888888;
+    color: black;
+    grid-area: ga1;
+}
+#skygge1 {
+      text-shadow: 4px 4px;  
+}
+#kasse2 {
+    background-color: #888888;
+    color: black;
+    grid-area: ga2;
+}
+#skygge2 {
+      text-shadow: -4px 4px crimson;  
+}
+#kasse3 {
+    background-color: #888888;
+    color: black;
+    grid-area: ga3;
+}
+#skygge3 {
+      text-shadow: 3px 3px 6px crimson;  
+}
+#kasse4 {
+    background-color: #888888;
+    color: white;
+    grid-area: ga4;
+}
+#skygge4 {
+      text-shadow: 3px 3px 10px black;  
+}
+#kasse5 {
+    background-color: white;
+    color: white;
+    grid-area: ga5;
+}
+#skygge5 {
+      text-shadow: 3px 3px 10px #aaaaaa;  
+}
+#kasse6 {
+    background-color: #888888;
+    color: #aaaaaa;
+    grid-area: ga6;
+}
+#skygge6 {
+      text-shadow: 0px 0px 2px black, 0px 0px 10px crimson;  
+}
+#kasse7 {
+    background-color: #888888;
+    color: #aaaaaa;
+    grid-area: ga7;
+}
+
+#kasse8 {
+    background-color: #888888;
+    color: #aaaaaa;
+    grid-area: ga8;
+}
+#skygge8 {
+      
+}
+#kasse9 {
+    background-color: #888888;
+    color: #aaaaaa;
+    grid-area: ga9;
+}
+#skygge9:hover{
+      text-shadow: 0px 0px 2px black, 0px 0px 10px crimson;  
+}
+#knap {
+    color: black;
+    font-size: 10px;
+}
+
+
+#tekstermedskygge {
+    display: grid;
+    grid-gap: 15px;
+    grid-template-areas: 
+        "ga1"
+        "ga2"
+        "ga3"
+        "ga4"
+        "ga5"
+        "ga6"
+        "ga7"
+        "ga8"
+        "ga9";
+}
+
+@media screen and (min-width: 800px){
+#tekstermedskygge {
+    display: grid;
+    grid-gap: 15px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: 
+        "ga1 ga2 ga3"
+        "ga4 ga5 ga6"
+        "ga7 ga8 ga9";
+}
+}

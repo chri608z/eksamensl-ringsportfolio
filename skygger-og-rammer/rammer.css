@@ -1,0 +1,228 @@
+body{
+    background-color:whitesmoke;
+}
+
+h1{
+    font-family: inherit;
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+    border:2px solid darkred;
+    border-radius: 20px;
+    margin:30px;
+    padding: 10px;
+    text-align: center;
+    background-color: crimson;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: center;
+}
+
+li a {
+    display: block;
+    color:crimson;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111111;
+}
+
+
+#mitgrid {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;  
+    grid-template-areas:
+       
+        ". a a a a"
+        ". b b b b"
+        ". c c c c"
+        ". d d d d"
+}
+    
+#felt1{
+    grid-area: a;
+    grid-column-start: 2/5;
+    margin-right: 10px;
+    border-width: 5px;
+    text-align: center;
+    box-shadow: pink;
+}
+
+#margin {
+    grid-area: margin;
+    padding: 0 50px 50px 50px;
+    border-style: dotted;
+    text-align: center;
+    background-color: lightgray;
+    margin: 20px;
+}
+
+#border {
+    padding: 0 45px 45px 45px;
+    background-color: green;
+    text-align: center;
+}
+
+#padding {
+    padding: 0 45px 45px 45px;
+    background-color: lightgray;
+    text-align: center;
+}
+
+#content {
+    border-style: dotted;
+    background-color: #fff;
+    text-align: center;
+}
+
+#felt2 {
+    grid-area: b;
+    background-color: #fff;
+    box-shadow: 10px 10px 5px #999999;
+    border-width: 5px;
+    border-color: darkblue;
+    margin-left: 20px;
+    margin-right: 20px;  
+    text-align: center;
+    padding-bottom: 10px;
+    
+}
+
+#mitgrid div:nth-child(3)  {
+    background-color: #fff;
+    grid-area: c;
+    box-shadow: 10px 10px 5px 
+    #999999;
+    border-width: 5px;
+    border-color: crimson;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+    padding-bottom: 10px;
+   
+}
+#felt3 {
+    background-color: #fff;
+    grid-area: d;
+    box-shadow: 10px 10px 5px #999999;
+    border-width: 5px;
+    border-color: crimson;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+    padding-bottom: 10px;
+  
+}
+
+    p.dotted {border-style: dotted;
+    box-shadow: 5px 5px 10px #999999;
+    border-width: 5px;
+    border-color: crimson;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+    
+    p.dashed {border-style: dashed;
+    box-shadow: 5px 5px 10px #999999;
+    border-width: 5px;
+    border-color: crimson;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+    padding-bottom: 10px;  
+}
+    p.solid {border-style: solid;
+    box-shadow: 5px 5px 10px #999999;
+    border-width: 5px;
+    border-color: crimson;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+    padding-bottom: 10px; 
+}
+    p.double {border-style: double;
+    box-shadow: 5px 5px 10px #999999;
+    border-width: 5px;
+    border-color: crimson;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+    p.groove {border-style: groove;
+    box-shadow: 5px 5px 10px #999999;
+    border-width: 5px;
+    border-color: crimson;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+    p.ridge {border-style: ridge;
+    box-shadow: 5px 5px 10px #999999;
+    border-width: 5px;
+    border-color: crimson;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+    p.inset {border-style: inset;
+    box-shadow: 5px 5px 10px #999999;
+    border-width: 5px;
+    border-color: crimson;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+    p.outset {border-style: outset;
+    box-shadow: 5px 5px 10px #999999;
+    border-width: 5px;
+    border-color: crimson;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+    p.none {border-style: none;
+    box-shadow: 5px 5px 10px #999999;
+    border-width: 5px;
+    border-color: darkblue;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+    p.hidden {border-style: hidden;
+    box-shadow: 5px 5px 10px #999999;
+    border-width: 5px;
+    border-color: crimson;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+    p.mix {border-style: dotted dashed solid double;
+    box-shadow: 5px 5px 10px #999999;
+    border-width: 5px;
+    border-color: crimson;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+    padding-bottom: 10px;
+        
+               
+} 

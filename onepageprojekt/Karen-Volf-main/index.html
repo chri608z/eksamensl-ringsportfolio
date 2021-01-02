@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="da" dir="ltr"> 
+    
+    <!-- Her linker vi til vores stylesheet og angiver vores charset --> 
+    <head>
+        
+         
+        
+        <meta charset="utf-8">
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <meta name= "description" content="Skriv en beskrivelse af hjemmesiden"> <!--"A description of this site that will shpw up in search engine results"-->
+        <link rel="stylesheet" href="https://use.typekit.net/xpm5qut.css">
+        <link rel="stylesheet" href="https://use.typekit.net/hev6nbv.css">
+        <meta keyword="">
+        <base href="index.html">
+        
+        <title>Honningsnitter</title> <!--Navngivelse af fanen i browseren-->
+        <link rel="stylesheet" href="projekt.css"> <!--Indsæt CSS stylesheet efter href="-->
+        
+    </head>
+
+    <body onload="alert('Denne side er udarbejdet i forbindelse med et studieprojekt, og er ikke KAREN VOLF officielle side, der findes på adresse: https://karenvolf.dk/ ')"> <!-- FORTÆLLER DET IKKE ER EN OFFICEL SIDE FOR KAREN VOLF -->
+        
+        <header class="header"> <!-- logo, menu -->
+            
+                <a href="index.html"><h1 class="logo">HONNINGSNITTER</h1></a>
+        
+                <nav><!--NAVIGATION START-->
+                    
+                    <input class="menu-btn"  type="checkbox" id="menu-btn">
+                    
+                    <label class="menu-icon" for="menu-btn"><span class="nav-icon"></span></label>
+                    
+                    <ul>
+                        <li class="menu"><a href="#h21">Om produktet</a></li>
+                        <li class="menu"><a href="#h22">Kagetapas</a></li>
+                        <li class="menu"><a href="#h23">Bite Size</a></li>
+                    </ul>    
+                
+                </nav><!--NAVIGATION SLUT-->
+        
+        </header>
+        
+        <!--VIDEOBAGGRUND START-->
+        <!-- Her har vi angivet videoen, "off" og "on" knappen til lyden på videoen som der også er blevet brugt javascript til da, det var det eneste der virkede på den måde vi havde brug for -->
+        <div class="banner">
+            
+                 
+            
+           <video id="v" autoplay muted loop>
+                
+                <source src="video_2.mp4" type="video/mp4">
+                <source src="video_2.ogg" type="video/ogg">
+                
+            </video>
+            
+        
+            <button id="onknap" class="btn-view-more"  onclick="disableMute()" type="button">Lyd til</button> 
+            <button id ="offknap" class="btn-view-more" onclick="enableMute()" type="button">Lyd fra</button>  
+            
+  
+
+            
+            
+            <section class="content"> <!-- Her har vi så teksten som står ovenpå videoen, som vi har brugt en lidt anden font end brugt i logoet for at giv lidt afveksling -->
+            
+                <p>Smagen af</p>
+            
+                <h1>Honningsnitter</h1>
+            
+            </section>
+            
+        </div>
+        
+        <!--VIDEOBAGGRUND SLUT-->
+        
+        <!--GRID START--> 
+        
+        <section class="grid">
+        
+ 
+            <section id="box">
+            
+                <img id="produkt" src="produkt.png" alt="produktbillede">
+            
+            </section>
+        
+        
+            <section class="beskrivelse">
+
+                <section id="om">
+
+                    <h2 id="h21">Honningsnitter</h2>
+
+                    <section id="p1"> <!-- en lille opfordring til køb af honningsnitterne --> 
+
+                        <p>De er søde, de er friske og så er de bare super lækre.</p>
+                        <p>De små honningsnitter er en del af bite size familien.</p> 
+                        <p>Kagen er med frisk appelsin og abrikosfrugtfyld.</p>
+                        <p>De små honningsnitter er overtrukket med sødt kakaoovertræk.</p>
+
+                    </section>
+
+                </section>
+
+            </section>
+
+            <section class="kagesushi"> 
+
+                <h2 id="h22">Kagetapas</h2>
+
+                <img id="kage1" src="kagetapas.png" alt="kagesushi">
+
+                <p id="p2">Karen Volf Bite Size familie er stor i smag – men de er små og delevenlige. De er perfekte til kagetapas. På tapastallerkenen står 3 lækre kager fra bitesize-familien. Der er her valgt at bruge Honningsnitter, Hindbærbites og Chokoladekage bites. Men det bedste ved kagetapas er, at man kan vælge sine helt egne favoritter.</p>
+                
+
+            </section>
+        
+        </section>
+        
+        <!--GRID SLUT-->
+        
+        <section>
+            
+            <h3>Opskrift</h3>
+        
+            <h4>Step 1</h4>
+            
+            <p class="ops">Inviter din familie, venner eller bare dem du har lyst til at forkæle med kagetapas.</p>
+            
+            <h4>Step 2</h4>
+            
+            <p class="ops">Køb 2-4 forskellige Bite Size kager fra Karen Volf. (se det store udvalg herunder.) Vælg dine favoritter. </p>
+            
+            <h4>Step 3</h4>
+            
+            <p class="ops">Du skal også bruge servietter og flag. Du kan evt. lave dine egne flag nemt. Du skal blot bruge tandstikker og papir. Mal eller tegn på papiret og klip det ud i små lige store trekanter. Klistre de små trekanter på tandstikkerne med tape, og så er det klar til at pynte på kagerne.</p>
+            
+            <h4>Step 4</h4>
+            
+            <p class="ops">Kagerne stilles pænt på et fad. Du kan bruge en helt almindelig tallerken. Du kan også bruge en træplade, skifferplade eller hvad du lige har. </p>
+            
+            <h4>Step 5</h4>
+            
+            <p class="ops">Så er du klar til at nyde lækre kager i dejligt samvær med dine venner eller familie.  </p>
+
+    
+            
+    
+        </section>
+        
+        <h2 id="h23">Andre Bite Size kager:</h2>
+        
+        <section class="sidescroll">
+            
+            <div class="box">
+                
+            <div class="card-a">
+                <a href="https://karenvolf.dk/produkter/brownie-cake-bite-size/"><img src="billeder/Brownie-Bites-Karen-Volf-1024x1024.jpg"></a> 
+            </div>
+                
+            <div class="card-b">
+                <a href="https://karenvolf.dk/produkter/klassisk-chokoladekage/"><img src="billeder/Chokolade-kage-Bites-Karen-Volf-1024x1024.jpg"></a>
+            </div>
+                
+            <div class="card-c">
+                <a href="https://karenvolf.dk/produkter/klassisk-droemmekage/"><img src="billeder/Dr%C3%B8mmekage-Bites-Karen-Volf-1024x1024.jpg"></a>
+            </div>
+                
+            <div class="card-d">
+               <a href="https://karenvolf.dk/produkter/vaniljedroem-havreflager-med-cremefyld-med-vaniljesma"><img src="billeder/Havredr%C3%B8m-Karen-Volf-1024x1024.jpg"></a>
+            </div>
+                
+            <div class="card-e">
+                <a href="https://karenvolf.dk/produkter/hindbaer-bites/"><img src="billeder/Hinb%C3%A6r-Bites-Karen-Volf.jpg"></a>
+            </div>
+                 
+            <div class="card-f">
+               <a href="https://karenvolf.dk/produkter/honning-kager-bite-size/"><img src="billeder/Honning-Snitter-Bites-Karen-Volf-1024x1024.jpg"></a>
+            </div>
+                
+            <div class="card-g">
+               <a href="https://karenvolf.dk/produkter/mazarin-cake-bite-size/"><img src="billeder/Mazarin-Bites-Karen-Volf-1024x1024.jpg"></a>  
+            </div>
+                
+           <div class="card-h">
+               <a href="https://karenvolf.dk/produkter/mini-traestammer-6-stk/"><img src="billeder/Mini-Traestammer_Karen-Volf-1024x1024.jpg"></a>  
+            </div>
+                
+            <div class="card-i">
+               <a href="https://karenvolf.dk/produkter/orangestaenger/"><img src="billeder/Orangest%C3%A6nger-Karen-Volf-1024x1024.jpg"></a>  
+            </div>
+                
+            <div class="card-j">
+               <a href="https://karenvolf.dk/produkter/romkager/"><img src="billeder/Romkager-Karen-Volf-1024x1024.jpg"></a>  
+            </div>
+           </div>
+
+        </section>
+        
+        <!-- SITE SCROLL SLUT -->
+        
+        <footer> <!-- HER STARTER FOOTER OG INFORMATION -->
+            
+            <section id="f1">
+                <p>Bisca A/S</p>
+                <p>Ahornvej 1</p>
+                <p>4780 Stege</p>
+            </section>
+            
+            <section id="f2">
+                <p>bisca.dk</p>
+                <p>tlf: +45 72 11 00 00</p>
+                <p>info@bisca.dk</p>
+            </section>
+            
+            <section id="copy">
+                <p>&#169;Honningsnitter - All rights reserved</p> <!-- &#169; COPYRIGHT TEGN. -->
+            </section>
+            
+        </footer>
+        
+    </body>
+    
+</html> 
+
+  <script>
+                 
+      //HER STARTER JAVASCRIPT BRUGT TIL VIDEO ON & OFF LYD 
+                 
+          var vid = document.getElementById("v"); //ANGIVER DET DER ER REFERERET TIL SÅ VIDEOEN IKKE HAR NOGEN LYD NÅR FOLK ANKOMMER PÅ SIDEN, MEN SELV SKAL SLÅ DET TIL. 
+      
+                   // vid.muted = true;
+            enableMute();
+      
+      
+          function enableMute() {
+            //alert("nu er der stille"); KAN OGSÅ BRUGES TIL AT VISE FOLK HVORNÅR DER ER LYD ELLER IKKE.
+            document.getElementById("offknap").style.display = "none"; //DISSE ELEMENTER ANGIVER AT OFF SKAL FORSVINDE OG LADE ON KOMME TIL.
+            document.getElementById("onknap").style.display = "block"; // "-" OG OMVENDT 
+            vid.muted = true;
+          }
+      
+      
+          function disableMute() {
+             // alert("nu er der lyd");
+              document.getElementById("offknap").style.display = "block"; //DISSE ELEMENTER ANGIVER AT OFF SKAL FORSVINDE OG LADE ON KOMME TIL.
+            document.getElementById("onknap").style.display = "none"; // "-" OG OMVENDT 
+              vid.muted = false;
+          }
+    </script>
