@@ -2,6 +2,7 @@ body{
     background-color:black;
 }
 
+
 h1{
     font-family: inherit;
     color: white;
@@ -57,6 +58,7 @@ p{
     font-family: sans-serif;
     color: black;
     font-family:sans-serif;
+    color: white
 }
 #skyggebeskr {
     font-size: 16px;
@@ -65,55 +67,55 @@ p{
 }
 
 #kasse1 {
-    background-color:crimson;
+    
     color: black;
     grid-area: ga1;
 }
 
 #kasse2 {
-    background-color: crimson;
+   
     color: black;
     grid-area: ga2;
 }
 
 #kasse3 {
-    background-color:crimson;
+    
     color: black;
     grid-area: ga3;
 }
 
 #kasse4 {
-    background-color:crimson;
+    
     color: black;
     grid-area: ga4;
 }
 
 #kasse5 {
-    background-color:crimson;
+    
     color: black;
     grid-area: ga5;
 }
 
 #kasse6 {
-    background-color: crimson;
+    
     color: #aaaaaa;
     grid-area: ga6;
 }
 
 #kasse7 {
-    background-color: crimson;
+    
     color: #aaaaaa;
     grid-area: ga7;
 }
 
 #kasse8 {
-    background-color: crimson;
+    
     color: #aaaaaa;
     grid-area: ga8;
 }
 
 #kasse9 {
-    background-color: crimson;
+    
     color: #aaaaaa;
     grid-area: ga9;
 }
@@ -139,10 +141,6 @@ p{
         "ga9";
 }
 
-#logo{
-    width: 95%;
-    
-}
 
 .navbar-collapse{
     background-color: black;
