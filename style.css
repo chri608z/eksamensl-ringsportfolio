@@ -172,7 +172,7 @@ p{
       outline: none;
     } /* Dette er for at fjerne den border/outline som kommer frem når man trykker på burger menuen */
 
-@media screen and (min-width: 800px){
+@media screen and (min-width: 600px){
 #tekstermedskygge {
     display: grid;
     grid-gap: 15px;
@@ -185,6 +185,31 @@ p{
 }
 }
 
+@media screen and (min-width: 900px){
+#tekstermedskygge {
+    display: grid;
+    grid-gap: 15px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: 
+        "ga1 ga2 ga3"
+        "ga4 ga5 ga6"
+        "ga7 ga8 ga9";
+}
+}
+
+@media screen and (min-width: 1200px){
+#tekstermedskygge {
+    display: grid;
+    grid-gap: 15px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: 
+        "ga1 ga2 ga3"
+        "ga4 ga5 ga6"
+        "ga7 ga8 ga9";
+}
+}
 footer{
     background-color: #dd2828;
     clear: both;
