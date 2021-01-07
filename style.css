@@ -1,7 +1,9 @@
 body{
     background-color:black;
+    height: 100%;
+    margin: 0;
+    font-family: inherit, sans-serif;
 }
-
 
 h1{
     font-family: inherit;
@@ -19,24 +21,6 @@ h1{
     font-family: italic;
 }
 
-h2{
-    font-family: inherit;
-    color: crimson;
-    text-align: left;
-    font-size: 20px;
-    text-align: center;
-    
-}
-
-h3{
-    font-family: inherit;
-    color: crimson;
-    text-align: left;
-    font-size: 18px;
-    text-align: center;
-}
-
-}
 p{
     font-size: 15px;
     font-family: serif;
@@ -215,5 +199,6 @@ footer{
     clear: both;
     text-align: center;
     width: 100%;
+    color: white;
 }
 
